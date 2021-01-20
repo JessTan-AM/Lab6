@@ -20,7 +20,7 @@ class ElectricCar(Vehicle):
     def __init__(self, number_of_wheels, seating_capacity, maximum_velocity):
         Vehicle.__init__(self, number_of_wheels, 'electric', seating_capacity, maximum_velocity)
 
-blueSG = ElectricCar ('4', 5, 150hi)
+blueSG = ElectricCar ('4', 5, 150)
 print(blueSG.number_of_wheels)
 print(blueSG.type_of_tanks)
 print(blueSG.seating_capacity)
